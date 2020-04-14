@@ -29,7 +29,7 @@ module JekyllPig
     
         def full_size_html(gallery_name, name, date, prev_url, next_url)
             "---\n"                                                                                                                                         \
-            "layout: post\n"                                                                                                                                \
+            "layout: gallery_post\n"                                                                                                                                \
             "title: #{name}\n"                                                                                                                              \
             "date: #{date.strftime("%Y-%m-%d %H:%M:%S")}\n"                                                                                                 \
             "permalink: /assets/html/#{gallery_name}/#{name}.html\n"                                                                                        \
